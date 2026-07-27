@@ -1,16 +1,15 @@
 # Password : Hello World
 
 # Limitations...
-
 # it only support 9 queries
 # data loss if execution closed
 # no constraints are used
 
 # features
-
 # uses full MySQL style to perform tasks
 # Shows table properly with keys and their values
 # Shows error by faulty queries like mysql style
+
 """
 1. Database Commands...
 
@@ -29,8 +28,9 @@
 
     i.  Select * from [table_name]; 
     ii. insert into [table_name] values( [values], [values], ... );
-    
     """
+
+
 import time
 
 start = 0
