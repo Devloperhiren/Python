@@ -22,13 +22,13 @@
 2. Table Commands...
 
     i. Show tables;
-    ii. Create table [table_name] ( [key] [datatype],...);
+    ii. Create table [table_name]( [key] [datatype],...);
     iii. drop table [table_name];
 
 3. DML Commands...
 
-    i.  Select * or [keys] from [table_name]; 
-    ii. insert into [table_name] values ([values]);
+    i.  Select * from [table_name]; 
+    ii. insert into [table_name] values( [values], [values], ... );
     
     """
 import time
